@@ -1,0 +1,40 @@
+{
+	"name": "active-cache",
+	"version": "1.0.0",
+	"description": "A simple caching object with TTL",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andstor/active-cache.git"
+	},
+	"author": {
+		"name": "André Storhaug",
+		"email": "andr3.storhaug@gmail.com",
+		"url": "https://github.com/andstor"
+	},
+	"main": "lib/active-cache.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"build": "webpack --mode production"
+	},
+	"files": [
+		"/lib",
+		"/src"
+	],
+	"bugs": {
+		"url": "https://github.com/andstor/active-cache/issues"
+	},
+	"keywords": [
+		"cache"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"babel-loader": "^8.0.6",
+		"webpack": "^4.36.1",
+		"webpack-cli": "^3.3.6"
+	}
+}
